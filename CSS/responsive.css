@@ -1,0 +1,71 @@
+/* Tablet */
+@media (max-width: 992px) and (min-width:685px) {
+    .home {
+        padding: 0;
+    }
+
+    .home .home-heading {
+        max-height: 50vh;
+    }
+
+    .projects .project-container .project-img1 {
+        flex-wrap: wrap;
+    }
+
+    .projects .project-container .project-img2 {
+        flex-wrap: wrap;
+    }
+
+    .about .about-container .emps {
+        flex-wrap: wrap;
+    }
+
+}
+
+/* Mobile */
+@media (max-width: 684px) {
+    .navigation .navbar {
+        display: none;
+    }
+
+
+    .home {
+        padding: 0;
+    }
+
+    .home .home-heading {
+        max-height: 40vh;
+    }
+
+    .home .home-heading .architect {
+        display: none;
+    }
+
+    .projects .project-container .project-img1 {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .projects .project-container .project-img2 {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .about .about-container {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .about .about-container .emps {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .houses {
+        width: 100%;
+    }
+
+}
